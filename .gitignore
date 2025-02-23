@@ -1,13 +1,17 @@
-frontend/node_modules/
-frontend/.next/
 
-frontend/.env.local
-frontend/.env.production
 
-backend/target/
-backend/.mvn/
-backend/*.log
-backend/.env
-
-*.DS_Store
+# Node / Next.js
+node_modules/
+.next/
+# Entornos
+.env
+.env.local
+# Logs
 *.log
+
+# Spring Boot
+target/
+*.jar
+
+# Otros
+*.DS_Store
